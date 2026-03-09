@@ -315,6 +315,36 @@ function convertTabular(text) {
   });
 }
 
+// Protect math from marked.js processing
+function shieldMath(text) {
+  const mathSegments = [];
+  let idx = 0;
+
+  text = text.replace(/\$\$([\s\S]*?)\$\$/g, (match) => {
+    const placeholder = `%%MATH_DISPLAY_${idx}%%`;
+    mathSegments[idx] = match;
+    idx++;
+    return placeholder;
+  });
+
+  text = text.replace(/(?<!\$)\$(?!\$)((?:[^$\\]|\\.)+?)\$(?!\$)/g, (match) => {
+    const placeholder = `%%MATH_INLINE_${idx}%%`;
+    mathSegments[idx] = match;
+    idx++;
+    return placeholder;
+  });
+
+  return { text, mathSegments };
+}
+
+function restoreMath(html, mathSegments) {
+  for (let i = 0; i < mathSegments.length; i++) {
+    html = html.replace(`%%MATH_DISPLAY_${i}%%`, mathSegments[i]);
+    html = html.replace(`%%MATH_INLINE_${i}%%`, mathSegments[i]);
+  }
+  return html;
+}
+
 function preprocessMath(text) {
   text = convertTabular(text);
   return text;
@@ -352,7 +382,9 @@ async function loadChapter(num) {
     let md = await resp.text();
 
     md = preprocessMath(md);
-    const html = marked.parse(md);
+    const shielded = shieldMath(md);
+    let html = marked.parse(shielded.text);
+    html = restoreMath(html, shielded.mathSegments);
     contentEl.innerHTML = html;
 
     renderMathInElement(contentEl, {
