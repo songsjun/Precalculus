@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+<script>
+  // GitHub Pages SPA redirect
+  var path = window.location.pathname;
+  var repo = path.split('/')[1] || '';
+  var rest = path.split('/').slice(2).join('/');
+  if (rest) {
+    window.location.replace('/' + repo + '/?p=' + encodeURIComponent(rest));
+  } else {
+    window.location.replace('/' + repo + '/');
+  }
+</script>
+</head>
+<body>
+<p>Redirecting...</p>
+</body>
+</html>
