@@ -1412,7 +1412,7 @@ regular trig functions can sometimes make the solution easier to find.
 
 Our problem now is to find $\sin \theta$ given $\cos \theta$, so we look for a way to relate the two. Here are two ways to do so:
 
-Method 1: The Unit Circle. Since $\theta=\arccos 0.6$, it is a first quadrant angle, as shown in the diagram at right. The Pythagorean Theorem then gives us $A O^{2}+P A^{2}=P O^{2}$, so $P A=\sqrt{P O^{2}-A O^{2}}=\sqrt{1^{2}-0.6^{2}}=0.8$. (We might also have recalled the Pythagorean triple $\{3,4,5\}$; dividing these by 5 gives $\{0.6,0.8,1\}$.) We then have $\sin \theta=P A=0.8$.
+Method 1: The Unit Circle. Since $\theta=\arccos 0.6$, it is a first quadrant angle, as shown in the diagram at right. The Pythagorean Theorem then gives us $A O^{2}+P A^{2}=P O^{2}$, so $P A=\sqrt{P O^{2}-A O^{2}}=\sqrt{1^{2}-0.6^{2}}=0.8$. (We might also have recalled the Pythagorean triple $\lbrace 3,4,5 \rbrace $; dividing these by 5 gives $\lbrace 0.6,0.8,1 \rbrace $.) We then have $\sin \theta=P A=0.8$.
 
 Method 2: Use a Trig Identity. Our first approach is essentially equivalent to using the trig identity $\sin ^{2} \theta+\cos ^{2} \theta=1$. Since $\cos \theta=0.6$, we have $\sin ^{2} \theta=1-(0.6)^{2}=0.64$.
 

@@ -198,7 +198,7 @@ $$[3,7] \cap[5,11]=[5,7] .$$
 On the other hand, the numbers that are either in [3,7] or in [5,11] (or in both) form the interval $[3,11]$. Therefore, we have
 $$[3,7] \cup[5,11]=[3,11] .$$
 
-We also have a special notation for "all real numbers except a few specific values." We can write "all real numbers except $2^{\prime \prime}$ as $\mathbb{R} \backslash\{2\}$. If we wish to exclude several specific values, we just list them inside the curly braces. So, we write "all real numbers except 5, 6 , and $7^{\prime \prime}$ as $\mathbb{R} \backslash\{5,6,7\}$.
+We also have a special notation for "all real numbers except a few specific values." We can write "all real numbers except $2^{\prime \prime}$ as $\mathbb{R} \backslash\lbrace 2 \rbrace $. If we wish to exclude several specific values, we just list them inside the curly braces. So, we write "all real numbers except 5, 6 , and $7^{\prime \prime}$ as $\mathbb{R} \backslash\lbrace 5,6,7 \rbrace $.
 (d) We can input any real number to the function $h(x)=9 x^{2}+4$, so the domain of $h$ is $\mathbb{R}$. Because the square of a real number is always nonnegative, the expression $9 x^{2}$ is always nonnegative. Therefore, the expression $9 x^{2}+4$ must be greater than or equal to 4 . Since $9 x^{2}+4$ can equal any number that is greater than or equal to 4 , the range of $h$ is $[4,+\infty)$.
 
 Note that in parts (b) and (c), we find the domain by considering operations that we are not able to perform. Specifically, we cannot take the square root of a negative number in a real function, and we cannot divide by zero. This is typically how we find the domain when it is not obvious that the domain is all real numbers, as it is in parts (a) and (d). Finding the range is often a matter of considering the possible outputs of special expressions like square roots, perfect squares, or absolute values. But, as shown in part (c), the restrictions on the range can also be more subtle. There, we found a strategy that is often useful for determining the range of complicated functions:
@@ -248,7 +248,7 @@ Combining these two constraints tells us that the domain is all real numbers gre
 (b) First, we notice that we cannot have $t=0$ or $3 t-4=0$, because we cannot divide by 0 . This tells us that we must exclude $t=0$ and $t=4 / 3$ from the domain. However, we're not finished, because we cannot have the entire denominator of $g(t)$ equal to 0 . Therefore, we must exclude from our domain those values of $t$ for which
 $$\frac{1}{t}-\frac{1}{3 t-4}=0 .$$
 
-Multiplying both sides by $t(3 t-4)$ to get rid of the fractions gives us $3 t-4-t=0$, from which we find $t=2$. So, the domain of $g$ is all real numbers except $0,4 / 3$, and 2 . We could write this as intervals with the unwieldy $(-\infty, 0) \cup\left(0, \frac{4}{3}\right) \cup\left(\frac{4}{3}, 2\right) \cup(2,+\infty)$. We can also write it as $\mathbb{R} \backslash\left\{0, \frac{4}{3}, 2\right\}$, which reads "all real numbers except $0, \frac{4}{3}$, and 2 ."
+Multiplying both sides by $t(3 t-4)$ to get rid of the fractions gives us $3 t-4-t=0$, from which we find $t=2$. So, the domain of $g$ is all real numbers except $0,4 / 3$, and 2 . We could write this as intervals with the unwieldy $(-\infty, 0) \cup\left(0, \frac{4}{3}\right) \cup\left(\frac{4}{3}, 2\right) \cup(2,+\infty)$. We can also write it as $\mathbb{R} \backslash\left\lbrace 0, \frac{4}{3}, 2\right\rbrace$, which reads "all real numbers except $0, \frac{4}{3}$, and 2 ."
 
 7
 

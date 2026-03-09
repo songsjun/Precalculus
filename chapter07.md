@@ -1391,7 +1391,7 @@ $$\binom{n}{1}-\binom{n}{3}+\binom{n}{5}-\binom{n}{7}+\cdots=2^{n / 2} \sin \fra
 
 Hints: 272
 7.68 ★ If $w=\cos 40^{\circ}+i \sin 40^{\circ}$, then express $\left|w+2 w^{2}+3 w^{3}+\cdots+9 w^{9}\right|^{-1}$ in the form $a \sin b$. (Source: AHSME) Hints: 165, 88
-7.69★ The sequence of functions $\left\{T_{n}\right\}$ is defined by $T_{0}(x)=1, T_{1}(x)=x$, and $T_{n}(x)=2 x T_{n-1}(x)-T_{n-2}(x)$ for all $n \geq 2$. Show that $T_{n}(\cos \theta)=\cos n \theta$.
+7.69★ The sequence of functions $\left\lbrace T_{n}\right\rbrace$ is defined by $T_{0}(x)=1, T_{1}(x)=x$, and $T_{n}(x)=2 x T_{n-1}(x)-T_{n-2}(x)$ for all $n \geq 2$. Show that $T_{n}(\cos \theta)=\cos n \theta$.
 7.70★ The angles $\alpha, \beta$, and $\gamma$ satisfy $e^{i \alpha}+e^{i \beta}+e^{i \gamma}=0$. Show that $e^{3 i \alpha}=e^{3 i \beta}=e^{3 i \gamma}$. Hints: 190,77
 7.71★ Show that
 $$\cos x+\cos y+\cos z+\cos (x+y+z)=4 \cos \left(\frac{x+y}{2}\right) \cos \left(\frac{x+z}{2}\right) \cos \left(\frac{y+z}{2}\right)$$

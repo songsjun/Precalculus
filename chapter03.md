@@ -510,7 +510,7 @@ Method 1: Use trig identities. We have $\cos ^{2} \theta=1-\sin ^{2} \theta=1-\f
 
 3.2. SUMS AND DIFFERENCES OF ANGLES
 
-Method 2: Use the geometric interpretation of sine and cosine. Suppose $\triangle A B C$ is a right triangle with $\angle C=90^{\circ}$ and $\angle A=\theta$, as shown at right. Then, we have $\sin \theta=\frac{B C}{A B}$ and $\cos \theta=\frac{A C}{A B}$. Since we know that $\sin \theta=\frac{4}{5}$, we let $B C=4$ and $A B=5$. The Pythagorean Theorem then gives us $A C=3$, so $\cos \theta=\frac{3}{5}$. (We also could have simply recognized the Pythagorean triple $\{3,4,5\}$.)
+Method 2: Use the geometric interpretation of sine and cosine. Suppose $\triangle A B C$ is a right triangle with $\angle C=90^{\circ}$ and $\angle A=\theta$, as shown at right. Then, we have $\sin \theta=\frac{B C}{A B}$ and $\cos \theta=\frac{A C}{A B}$. Since we know that $\sin \theta=\frac{4}{5}$, we let $B C=4$ and $A B=5$. The Pythagorean Theorem then gives us $A C=3$, so $\cos \theta=\frac{3}{5}$. (We also could have simply recognized the Pythagorean triple $\lbrace 3,4,5 \rbrace $.)
 
 Next, we tackle $\cos \left(\arctan \frac{5}{12}\right)$ and $\sin \left(\arctan \frac{5}{12}\right)$. We let $\phi=\arctan \frac{5}{12}$, so $\tan \phi=\frac{5}{12}$, and $0<\phi<\frac{\pi}{2}$. Again, we present two solutions:
 
@@ -519,7 +519,7 @@ $$\sec ^{2} \phi=\left(\frac{5}{12}\right)^{2}+1=\frac{25}{144}+1=\frac{169}{144
 
 Since $0<\phi<\frac{\pi}{2}$, we know that $\sec \phi>0$, so we have $\sec \phi=\frac{13}{12}$, which gives us $\cos \phi=\frac{12}{13}$. Finally, we have $\sin ^{2} \phi=1-\cos ^{2} \phi=\frac{25}{169}$, so $\sin \phi=\frac{5}{13}$. Therefore, we have $\cos \left(\arctan \frac{5}{12}\right)=\frac{12}{13}$ and $\sin \left(\arctan \frac{5}{12}\right)=\frac{5}{13}$.
 
-Method 2: Geometry. Let $\triangle X Y Z$ be a right triangle with $\angle Z=90^{\circ}, Z Y=5$, $X Z=12$, and $\angle X=\phi$, as shown at right. We have $\tan \phi=\frac{Y Z}{X Z}=\frac{5}{12}$. The Pythagorean Theorem (or knowing the $\{5,12,13\}$ Pythagorean triple) gives us $X Y=13$, so $\sin \phi=\frac{Y Z}{X Y}=\frac{5}{13}$ and $\cos \phi=\frac{X Z}{X Y}=\frac{12}{13}$.
+Method 2: Geometry. Let $\triangle X Y Z$ be a right triangle with $\angle Z=90^{\circ}, Z Y=5$, $X Z=12$, and $\angle X=\phi$, as shown at right. We have $\tan \phi=\frac{Y Z}{X Z}=\frac{5}{12}$. The Pythagorean Theorem (or knowing the $\lbrace 5,12,13 \rbrace $ Pythagorean triple) gives us $X Y=13$, so $\sin \phi=\frac{Y Z}{X Y}=\frac{5}{13}$ and $\cos \phi=\frac{X Z}{X Y}=\frac{12}{13}$.
 
 Finally, we have
 $$\begin{aligned}
@@ -1672,7 +1672,7 @@ $$\frac{1}{\sin 45^{\circ} \sin 46^{\circ}}+\frac{1}{\sin 47^{\circ} \sin 48^{\c
 3.74★ Find the sum of the values of $x$ such that $\cos ^{3} 3 x+\cos ^{3} 5 x=8 \cos ^{3} 4 x \cos ^{3} x$, where $x$ is measured in degrees and $100<x<200$. (Source: AIME) Hints: 178
 3.75 $\star$ An angle $x$ is chosen at random from the interval $0^{\circ}<x<90^{\circ}$. Find the probability that the numbers $\sin ^{2} x, \cos ^{2} x$, and $\sin x \cos x$ are not the lengths of the sides of a triangle. (Source: AIME)
 3.76 ★ Show that if $x+y+z=x y z$, then $\frac{2 x}{1-x^{2}}+\frac{2 y}{1-y^{2}}+\frac{2 z}{1-z^{2}}=\frac{2 x}{1-x^{2}} \cdot \frac{2 y}{1-y^{2}} \cdot \frac{2 z}{1-z^{2}}$. Hints: 153
-3.77 ★ The sequence $\left\{a_{n}\right\}$ satisfies $a_{0}=0$ and $a_{n+1}=\frac{8}{5} a_{n}+\frac{6}{5} \sqrt{4^{n}-a_{n}^{2}}$ for $n \geq 0$. Find $a_{10}$. (Source: AIME) Hints: 145, 216
+3.77 ★ The sequence $\left\lbrace a_{n}\right\rbrace$ satisfies $a_{0}=0$ and $a_{n+1}=\frac{8}{5} a_{n}+\frac{6}{5} \sqrt{4^{n}-a_{n}^{2}}$ for $n \geq 0$. Find $a_{10}$. (Source: AIME) Hints: 145, 216
 3.78★ Prove that $\sum_{k=1}^{n} \arctan \frac{1}{2 k^{2}}=\arctan \frac{n}{n+1}$.
 
 Sidenote: On page 111, we asked what causes the oscillations we hear when tuning an instrument that is almost in tune, but not quite. To investigate, we graphed $y=\sin 30 x+\sin 30 x, y=\sin 31 x+\sin 29 x$, and $y=\sin 32 x+\sin 28 x$. Applying the sum-to-product identity gives us a clearer picture of what's going on in the graphs. While $\sin 30 x+\sin 30 x$ is just $2 \sin 30 x$, applying the sum-to-product identity for sine gives
